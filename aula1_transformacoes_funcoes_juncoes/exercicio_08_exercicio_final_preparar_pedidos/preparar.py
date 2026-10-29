@@ -44,3 +44,5 @@ print(pronto.shape)
 print(pronto[["id_pedido", "canal", "produto", "plano", "total", "perfil"]].head(3))
 print("Faturamento bruto:", round(pronto["total"].sum(), 2), "| lucro bruto:", round(pronto["lucro"].sum(), 2))
 print("Arquivo pedidos_prontos.csv gravado.")
+
+#teste
